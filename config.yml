@@ -1,0 +1,31 @@
+baseURL: ""
+languageCode: en-us
+title: Drunken Goose Brothers 醉鹅兄弟
+theme: PaperMod
+
+params:
+  homeInfoParams:
+    Title: '🏄‍♂️ 什么都不用说，一直在那个高度'
+    Content: ''
+
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON 
+
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+
+      
+
